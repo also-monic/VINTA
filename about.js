@@ -1,11 +1,11 @@
 var elems = document.querySelectorAll(".elem");
 
 var imgs2 = [
-    "./Assets/bg5.avif",
-    "./Assets/bg2.avif",
-    "./Assets/bg3.avif",
-    "./Assets/bg4.avif",
-    "./Assets/bg1.avif"
+    "./assets/bg5.avif",
+    "./assets/bg2.avif",
+    "./assets/bg3.avif",
+    "./assets/bg4.avif",
+    "./assets/bg1.avif"
 ]
 
 elems.forEach(function (elem) {
