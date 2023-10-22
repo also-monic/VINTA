@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>VINTA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+
+    <div id="cursor"></div>
+
+    <div class="main">
+
+        <div class="page1">
+
+            <div class="nav">
+
+                <div class="left">VINTA</div>
+
+                <div class="right">
+                    <a href="about.html"><h3 class="line">About Us</h3></a>
+                    <a href="#productPage"><h3 class="line">Shop</h3></a>
+                    <a href="contact.html"><h3 class="line">Contact Us</h3></a>
+                </div>
+            </div>
+
+            <h1>"Explore.</h1>
+            <h1>Thrive. </h1>
+            <h1>Trek."</h1>
+
+            <div class="imgBox">
+                <img loading="lazy"  data-scroll data-scroll-speed = "0.4" src="./assets/b1.avif" alt="">
+            </div>
+
+            <div class="end">
+               <div class="top">
+                 <p>Roam</p>
+                 <p>Conquer</p>
+               </div>
+               <div class="bottom"></div>
+            </div>
+
+        </div>
+
+        <div class="page2">
+            <div class="elem" id="e1">
+                <img loading="lazy" data-scroll data-scroll-speed = "1" src="./assets/b2.avif" alt="">
+            </div>
+
+            <div class="elem" id="e2">
+                <img loading="lazy" data-scroll data-scroll-speed = "1" src="./assets/b3.avif" alt="">
+            </div>
+
+            <div class="elem" id="e3">
+                <img loading="lazy" data-scroll data-scroll-speed = "1" src="./assets/b4.avif" alt="">
+            </div>
+        </div>
+
+        <div class="page3">
+            <div class="left">
+                <p>Elevate Your Adventure <br>with VINTA. <br>Style, Quality, and Purpose <br>Combined.</p>
+            </div>
+
+            <div class="right">
+                <p>
+                    "VINTA elevates your journey with meticulously crafted trekking bags. <br>
+                    Blend adventure with sustainability, join our community of explorers, <br>
+                    and discover the world with style and purpose."
+                </p>
+                
+                <p class="line">
+                    <a href="#"> Explore VINTA today.</a>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="page4" id="productPage">
+
+            <div class="child" id="child1">
+                <img src="./assets/i1.avif" alt="">
+                <div class="text">Durable, spacious school bags for students, blending style and functionality.</div>
+            </div>
+            
+            <div class="child" id="child2">
+                <img src="./assets/i5.avif" alt="">
+                <div class="text">Sleek, protective laptop bags for professionals on the move.</div>
+            </div>
+            
+            <div class="child" id="child3">
+                <img src="./assets/i3.avif" alt="">
+                <div class="text">Rugged, spacious trekking backpacks designed for outdoor adventurers.</div>
+            </div>
+            
+            <div class="child" id="child4">
+                <img src="./assets/i4.avif" alt="">
+                <div class="text"> Elegant, versatile purses for chic, everyday fashion and organization.</div>
+            </div>
+
+        </div>
+
+        <div class="page5">
+            <div class="end">
+                <div class="top">
+                  <p>Words of Goodness</p>
+                  <p>Message of Love & Support</p>
+                </div>
+                <div class="bottom"></div>
+             </div>
+
+             <div class="upper">
+                <div class="layer1">
+                    <div class="dot" onclick=colorChange(1)></div>
+                    <div class="dot" onclick=colorChange(2)></div>
+                    <div class="dot" onclick=colorChange(3)></div>
+                    <div class="dot" onclick=colorChange(4)></div>
+                    <div class="dot" onclick=colorChange(5)></div>
+                    <div class="dot" onclick=colorChange(6)></div>
+                    <div class="dot" onclick=colorChange(7)></div>
+                </div>
+                
+                <div class="layer2">
+                    <div class="name">Abc</div>
+                    <div class="name">Bcd</div>
+                    <div class="name">Cde</div>
+                    <div class="name">Def</div>
+                    <div class="name">Efg</div>
+                    <div class="name">Fgh</div>
+                    <div class="name">Ghi</div>
+                </div>
+             </div>
+
+             <div class="lower">
+                <p class="text">VINTA's bags are a true fashion find, seamlessly blending style and functionality. Craftsmanship and attention to detail are evident in every piece, making them a favorite among fashion enthusiasts.</p>
+             </div>
+        </div>
+
+        <div class="end">
+            <div class="top">
+                <p>Created By @Monic</p>
+                <p>Github : <a href="https://github.com/Monic-19">Monic-19</a></p>
+            </div>
+            <div class="bottom"></div>
+         </div>
+
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
